@@ -1,0 +1,166 @@
+common used:y family:graphic     parent:             name:
+   - draw:end-line-spacing-horizontal: 0.283cm
+   - draw:shadow-offset-y: 0.3cm
+   - draw:shadow-offset-x: 0.3cm
+   - style:flow-with-text: false
+   - draw:start-line-spacing-vertical: 0.283cm
+   - draw:start-line-spacing-horizontal: 0.283cm
+   - draw:end-line-spacing-vertical: 0.283cm
+   - fo:wrap-option: wrap
+common used:y family:master-page parent:             name:Standard
+common used:y family:paragraph   parent:             name:
+   - style:writing-mode: page
+   - fo:hyphenation-ladder-count: no-limit
+   - style:tab-stop-distance: 1.251cm
+   - style:punctuation-wrap: hanging
+   - style:text-autospace: ideograph-alpha
+   - style:line-break: strict
+common used:y family:paragraph   parent:Standard     name:Heading
+   - fo:margin-top: 0.423cm
+   - fo:keep-with-next: always
+   - fo:margin-bottom: 0.212cm
+common used:y family:paragraph   parent:Standard     name:Index
+   - text:number-lines: false
+   - text:line-number: 0
+common used:y family:paragraph   parent:             name:Standard
+   - style:shadow: none
+common used:y family:paragraph   parent:Standard     name:Text_20_body display_name:Text body
+   - fo:margin-top: 0cm
+   - fo:margin-bottom: 0.212cm
+common used:y family:paragraph   parent:Text_20_body name:mypara
+common used:y family:table       parent:             name:
+   - table:border-model: collapsing
+common used:y family:table-row   parent:             name:
+   - fo:keep-together: auto
+common used:y family:text        parent:             name:Numbering_20_Symbols display_name:Numbering Symbols
+common used:n family:font-face   parent:             name:Bitstream Vera Sans Mono
+common used:n family:font-face   parent:             name:Bitstream Vera Sans Mono
+common used:n family:font-face   parent:             name:DejaVu Sans
+common used:n family:font-face   parent:             name:DejaVu Sans
+common used:n family:font-face   parent:             name:DejaVu Sans Mono
+common used:n family:font-face   parent:             name:DejaVu Sans Mono
+common used:n family:font-face   parent:             name:Liberation Sans
+common used:n family:font-face   parent:             name:Liberation Sans
+common used:n family:font-face   parent:             name:Liberation Serif
+common used:n family:font-face   parent:             name:Liberation Serif
+common used:n family:font-face   parent:             name:OpenSymbol
+common used:n family:font-face   parent:             name:OpenSymbol
+common used:n family:font-face   parent:             name:新細明體
+common used:n family:font-face   parent:             name:新細明體
+common used:n family:list        parent:             name:List_20_1 display_name:List 1
+common used:n family:list        parent:             name:Numbering_20_1 display_name:Numbering 1
+common used:n family:outline     parent:             name:Outline
+common used:n family:paragraph   parent:Standard     name:Caption
+   - fo:margin-top: 0.212cm
+   - text:number-lines: false
+   - text:line-number: 0
+   - fo:margin-bottom: 0.212cm
+common used:n family:paragraph   parent:Index        name:Contents_20_1 display_name:Contents 1
+   - fo:margin-left: 0cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_10 display_name:Contents 10
+   - fo:margin-left: 4.493cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_2 display_name:Contents 2
+   - fo:margin-left: 0.499cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_3 display_name:Contents 3
+   - fo:margin-left: 0.998cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_4 display_name:Contents 4
+   - fo:margin-left: 1.498cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_5 display_name:Contents 5
+   - fo:margin-left: 1.997cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_6 display_name:Contents 6
+   - fo:margin-left: 2.496cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_7 display_name:Contents 7
+   - fo:margin-left: 2.995cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_8 display_name:Contents 8
+   - fo:margin-left: 3.494cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Index        name:Contents_20_9 display_name:Contents 9
+   - fo:margin-left: 3.993cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - style:tab-stops: {}
+   - fo:text-indent: 0cm
+common used:n family:paragraph   parent:Heading      name:Contents_20_Heading display_name:Contents Heading
+   - fo:text-indent: 0cm
+   - text:line-number: 0
+   - fo:margin-left: 0cm
+   - style:auto-text-indent: false
+   - fo:margin-right: 0cm
+   - text:number-lines: false
+common used:n family:paragraph   parent:Heading      name:Heading_20_1 display_name:Heading 1
+common used:n family:paragraph   parent:Heading      name:Heading_20_10 display_name:Heading 10
+common used:n family:paragraph   parent:Heading      name:Heading_20_2 display_name:Heading 2
+common used:n family:paragraph   parent:Heading      name:Heading_20_3 display_name:Heading 3
+common used:n family:paragraph   parent:Heading      name:Heading_20_4 display_name:Heading 4
+common used:n family:paragraph   parent:Heading      name:Heading_20_5 display_name:Heading 5
+common used:n family:paragraph   parent:Heading      name:Heading_20_6 display_name:Heading 6
+common used:n family:paragraph   parent:Heading      name:Heading_20_7 display_name:Heading 7
+common used:n family:paragraph   parent:Heading      name:Heading_20_8 display_name:Heading 8
+common used:n family:paragraph   parent:Heading      name:Heading_20_9 display_name:Heading 9
+common used:n family:paragraph   parent:Text_20_body name:List
+common used:n family:paragraph   parent:Standard     name:Preformatted_20_Text display_name:Preformatted Text
+   - fo:margin-top: 0cm
+   - fo:margin-bottom: 0cm
+common used:n family:text        parent:             name:Bullet_20_Symbols display_name:Bullet Symbols
+   - style:font-name-asian: OpenSymbol
+   - style:font-name: OpenSymbol
+   - style:font-name-complex: OpenSymbol
+common used:n family:text        parent:             name:Example
+   - style:font-name-asian: Bitstream Vera Sans Mono
+   - style:font-name: Bitstream Vera Sans Mono
+   - style:font-name-complex: Bitstream Vera Sans Mono
+common used:n family:text        parent:             name:Teletype
+   - style:font-name-asian: Bitstream Vera Sans Mono
+   - style:font-name: Bitstream Vera Sans Mono
+   - style:font-name-complex: Bitstream Vera Sans Mono
+auto   used:y family:page-layout parent:             name:Mpm1
+   - fo:margin-top: 2cm
+   - style:writing-mode: lr-tb
+   - fo:margin-left: 2cm
+   - fo:page-width: 20.999cm
+   - style:num-format: 1
+   - style:print-orientation: portrait
+   - style:footnote-max-height: 0cm
+   - fo:margin-bottom: 2cm
+   - style:footnote-sep: {'style:adjustment': 'left', 'style:rel-width': '25%', 'style:color': '#000000', 'style:distance-after-sep': '0.101cm', 'style:width': '0.018cm', 'style:distance-before-sep': '0.101cm'}
+   - fo:page-height: 29.699cm
+   - fo:margin-right: 2cm
+auto   used:y family:paragraph   parent:mypara       name:P1
+auto   used:y family:text        parent:             name:T1
+   - style:language-asian: zh
+   - style:country-asian: TW
